@@ -23,7 +23,7 @@ Cosmos DB
 ---
 
 ## Flowchart
-<img src="images/flowchart.png" width="500" height="500">
+<img src="images/flowchart.png" width="800" height="800">
 
 ---
 
