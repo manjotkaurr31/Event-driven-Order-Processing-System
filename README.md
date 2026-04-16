@@ -88,6 +88,7 @@ All order states are stored in **Cosmos DB**:
 ## API Endpoints
 
 ### Create Order: POST /api/createOrder
+Example: https://order-system-func-mk31.azurewebsites.net/api/createOrder
 **Request**
 ```json
 {
@@ -101,13 +102,18 @@ All order states are stored in **Cosmos DB**:
   "status": "CREATED"
 }
 ```
+<img src="images/POST_request.png" width="1000" height="1000">
+
+
 ### Get Order Status: GET /api/getOrder/{orderID}
+Example: https://order-system-func-mk31.azurewebsites.net/api/getOrder/2bb9c503-fe22-4fb5-96ff-4e5d0b67b627
 Returns the latest order state from Cosmos DB.
+<img src="images/GET_request.png" width="1000" height="1000">
 
 ---
 
 ## Deployment
-Deployed on Azure Functions: https://order-system-func-mk31.azurewebsites.net
+Deployed on Azure Functions: Click [here](https://order-system-func-mk31.azurewebsites.net) for deployed link.
 
 ---
 
