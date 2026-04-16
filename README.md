@@ -20,7 +20,10 @@ processOrder (Queue Trigger Function)
 ▼
 Cosmos DB
 ```
+---
 
+## Flowchart
+<img src="images/flowchart.png" width="500" height="500">
 
 ---
 
