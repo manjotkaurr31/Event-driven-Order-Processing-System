@@ -31,7 +31,7 @@ Client → API (Azure Functions) → Redis (Inventory Reservation) → Service B
 - If processing fails, reserved stock is restored in Redis
 - Prevents inventory inconsistency
 
-8*5. Persistent Storage (Cosmos DB)**
+**5. Persistent Storage (Cosmos DB)**
 - Stores order states: CREATED, PROCESSING, COMPLETED, FAILED
 - Enables querying order status via API
 
