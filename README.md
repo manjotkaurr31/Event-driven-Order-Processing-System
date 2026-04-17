@@ -88,6 +88,7 @@ Returns the latest order state from Cosmos DB.
 
 Azurite used for local storage emulation
 Environment variables stored in `local.settings.json`
+
 Deployed on Azure Functions: Click [here](https://order-system-func-mk31.azurewebsites.net) for deployed link.
 
 ---
