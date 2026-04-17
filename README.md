@@ -8,6 +8,9 @@ This project demonstrates a production-style, event-driven order processing syst
 ```
 Client → API (Azure Functions) → Redis (Inventory Reservation) → Service Bus → Worker → Cosmos DB → Application Insights
 ```
+
+<img src="images/architecture.png" width="1000" height="1000">
+
 ---
 
 ## Key Features
