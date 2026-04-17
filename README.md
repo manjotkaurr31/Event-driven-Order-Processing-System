@@ -12,30 +12,30 @@ Client → API (Azure Functions) → Redis (Inventory Reservation) → Service B
 
 ## Key Features
 
-1. Asynchronous Processing (Azure Service Bus)
+**1. Asynchronous Processing (Azure Service Bus)**
 - Orders are not processed immediately
 - API pushes messages to Azure Service Bus
 - Background worker processes them independently
 
-2. Inventory Reservation using **Redis**
+**2. Inventory Reservation using **Redis****
 - Redis is used as an in-memory cache for stock management
 - Atomic operations (DECR, INCR) prevent race conditions
 - Ensures no overselling during high concurrency
 
-3. Retry Mechanism
+**3. Retry Mechanism**
 - Service Bus automatically retries failed messages
 - Delivery count is tracked
 - Orders are marked as FAILED after max retries
 
-4. Compensation Logic
+**4. Compensation Logic**
 - If processing fails, reserved stock is restored in Redis
 - Prevents inventory inconsistency
 
-5. Persistent Storage (Cosmos DB)
+8*5. Persistent Storage (Cosmos DB)**
 - Stores order states: CREATED, PROCESSING, COMPLETED, FAILED
 - Enables querying order status via API
 
-6. Observability (Azure Application Insights)
+**6. Observability (Azure Application Insights)**
 - Structured logging for:
 - Order creation
 - Processing lifecycle
