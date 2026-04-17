@@ -79,7 +79,7 @@ Example: https://order-system-func-mk31.azurewebsites.net/api/createOrder
 ```
 
 ### Get Order Status: GET /api/getOrder/{orderID}
-Example: https://order-system-func-mk31.azurewebsites.net/api/getOrder/2bb9c503-fe22-4fb5-96ff-4e5d0b67b627
+Example: https://order-system-func-mk31.azurewebsites.net/api/getOrder/{orderId}
 Returns the latest order state from Cosmos DB.
 
 ---
