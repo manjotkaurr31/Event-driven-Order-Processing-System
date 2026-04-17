@@ -129,6 +129,22 @@ Deployed on Azure Functions: Click [here](https://order-system-func-mk31.azurewe
 
 ---
 
+## Version Evolution
+
+**V1 (Basic)**
+- main branch
+- Azure Queue Storage
+- Simple async processing
+
+**V2 (Current)**
+- redis-servicebus branch
+- Service Bus integration
+- Redis-based inventory reservation
+- Compensation logic
+- Application Insights logging
+
+---
+
 ## Future Improvements
 
 - Add authentication (Azure AD / API keys)
