@@ -36,12 +36,12 @@ Client → API (Azure Functions) → Redis (Inventory Reservation) → Service B
 - Enables querying order status via API
 
 6. Observability (Azure Application Insights)
-Structured logging for:
-Order creation
-Processing lifecycle
-Failures
-Compensation events
-Enables real-time debugging and monitoring
+- Structured logging for:
+- Order creation
+- Processing lifecycle
+- Failures
+- Compensation events
+- Enables real-time debugging and monitoring
 
 ---
 
