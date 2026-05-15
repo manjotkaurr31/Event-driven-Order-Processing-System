@@ -1,4 +1,4 @@
-# AWS-based Inventory Management System
+# Azure-based Inventory Management System
 A serverless, event-driven backend system that processes orders asynchronously using Azure Functions, Queue Storage, and Cosmos DB. The system demonstrates real-world patterns such as decoupling, retry handling, and eventual consistency.
 
 ---
